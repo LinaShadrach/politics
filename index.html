@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Political Belief Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Political Belief Meter</h1>
+      <div id="survey">
+        <form>
+          <h5>Do you support gender equality?</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="gender" value="yes" checked>
+              YES!
+            </label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="gender" value="no" checked>
+                NO!
+              </label>
+            </div>
+            <div class="race">
+              <h5>Do you support equal rights for all people of races?</h5>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="rights" value="yes" checked>
+                  YES!
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="rights" value="no" checked>
+                  NO!
+                </label>
+              </div>
+            </div>
+            <h5>Do you support making citizenship accessible to current immigrants working in the country illegally?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="citizen" value="yes" checked>
+                YES!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="citizen" value="no" checked>
+                NO!
+              </label>
+            </div>
+            <h5>Do you support making secondary education less expensive?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="education" value="yes" checked>
+                YES!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="education" value="no" checked>
+                NO!
+              </label>
+            </div>
+            <h5>Do you support taxing the rich instead of the poor?</h5>
+            <div class="radio">
+              <label>
+                <input type="radio" name="tax" value="yes" checked>
+                YES!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="tax" value="no" checked>
+                NO!
+              </label>
+            </div>
+          </div>
+          <button type="submit" name="results">Submit!</button>
+        </form>
+      </div>
+      <div class="results">
+        <p>Clinton: <span class="trump"></span></p>
+        <p>Trump: <span class="clinton"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
